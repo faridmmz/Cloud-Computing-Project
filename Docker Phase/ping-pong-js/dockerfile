@@ -1,0 +1,9 @@
+FROM node:slim
+
+WORKDIR /app
+
+COPY . /app/
+
+EXPOSE 8003
+
+CMD [ "node", "PingPong.js" ]

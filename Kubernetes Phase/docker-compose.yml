@@ -1,0 +1,35 @@
+version: '3'
+services:
+    app:
+      build:
+        context: .
+        dockerfile: Dockerfile
+      ports:
+        - "8000:8000"
+      volumes:
+        - //E/ce/cloud computing/project/phase 3/simple-go-rest-api-student/api
+      depends_on:
+        - db
+      deploy:
+        resources:
+          limits:
+            cpus: '0.5'
+            memory: 512M
+      links:
+      - "db:database"
+
+    db:
+      image: mysql/mysql-server:5.7
+      ports:
+        - "3306:3306"
+      environment:
+        MYSQL_ROOT_PASSWORD : ${MYSQL_ROOT_PASSWORD}
+        MYSQL_USER : ${DB_USER}
+        MYSQL_PASSWORD : ${DB_PASSWORD}
+        MYSQL_DATABASE : ${DB_NAME}
+      volumes:
+        - db_data:/var/lib/mysql
+      
+  
+volumes:
+  db_data: 
