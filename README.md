@@ -1,6 +1,18 @@
 # Cloud Computing Project: Multi-Container Application Deployment
 
+**Hold onto your hats as we take a leap into the digital skies, exploring the 'byte'-sized wonders of Docker, Docker-Compose, and Kubernetes**
+
 This repository contains the documentation and resources for the Cloud Computing project, developed by Faridreza Momtazzandi and Mahya Ehsanimehr. The project focuses on deploying a multi-container application using Docker, Docker Compose, and Kubernetes.
+
+![Photo by <a href="https://unsplash.com/@chuttersnap?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">CHUTTERSNAP</a> on <a href="https://unsplash.com/photos/9AqIdzEc9pY?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  ](https://github.com/faridmmz/Cloud-Computing-Project/blob/main/README_image.jpg "Photo by CHUTTERSNAP on Unsplash")
+
+## Table of Contents
+
+- [Phase 1: Docker](#Phase1-Docker)
+- [Phase 2: Docker Compose](#phase2-Docker-Compose)
+- [## Phase 3: Kubernetes](#phase3-Kubernetes)
+- [Conclusion](#conclusion)
 
 ## Phase 1: Docker
 
@@ -36,8 +48,10 @@ For detailed instructions, refer to [Phase 3 Documentation](Kubernetes-Phase/REA
 
 This project demonstrated the deployment of a multi-container application using various containerization and orchestration technologies. Through Docker, Docker Compose, and Kubernetes, we successfully managed the deployment of different components, ensuring scalability, reliability, and maintainability of the application.
 
+**As our cloud computing saga wrapped up, let's raise a virtual toast to the incredible world of Docker, Docker-Compose, and Kubernetes. May your deployments always be 'container'-ful."**
+
 For any inquiries or further information, please contact:
-- Faridreza Momtazzandi: farid@example.com
+- Faridreza Momtazzandi: faridmmz79@example.com
 - Mahya Ehsanimehr: mahya@example.com
 
 ---

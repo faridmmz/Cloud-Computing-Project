@@ -1,5 +1,11 @@
 # Phase 2: Docker-Compose
-Welcome to the second Phase of our Cloud Computing project and feel free to reach out to us for anything related to this project and hope you have fun with the cloud experience!
+
+## Table of Contents
+
+- [Project Brief](#project-Brief)
+- [Docker Compose Elements](#docker-Compose-Elements)
+- [Usage Instructions](#usage-Instructions)
+- [Implementation Summary](#implementation-Summary)
 
 ## Project Brief
 In this phase, you'll utilize Docker Compose to orchestrate the deployment of the `simple-go-rest-api` application. This application, written in Go, interacts with a database to store and manage text entries.

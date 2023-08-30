@@ -1,6 +1,13 @@
 # Phase 1: Docker
 Welcome to the first Phase of our Cloud Computing project and feel free to reach out to us for anything related to this project and hope you have fun with the cloud experience!
 
+## Table of Contents
+
+- [Project Brief](#project-Brief)
+- [Docker Files Description](#docker-Files-Description)
+- [## Running the Applications](#running-the-Applications)
+
+
 ## Project Brief
 
 In this phase, we'll create Docker files for different applications, build the corresponding images, and evaluate their performance by running containers. Detailed instructions for each application are provided below.
@@ -11,7 +18,7 @@ Docker Files to be Written
 - Docker file for `js-pong-ping` application
 - Docker file for `nginx`
 
-Docker Files Description
+## Docker Files Description
 
 ### Docker file for `java-pong-ping` Application
 This Java application exposes the following endpoint:
