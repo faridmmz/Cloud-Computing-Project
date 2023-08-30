@@ -3,7 +3,7 @@ Welcome to the first Phase of our Cloud Computing project and feel free to reach
 
 ## Project Brief
 
-In this phase, you will create Docker files for different applications, build the corresponding images, and evaluate their performance by running containers. Detailed instructions for each application are provided below.
+In this phase, we'll create Docker files for different applications, build the corresponding images, and evaluate their performance by running containers. Detailed instructions for each application are provided below.
 
 Docker Files to be Written
 - Docker file for `java-pong-ping` application
@@ -12,7 +12,8 @@ Docker Files to be Written
 - Docker file for `nginx`
 
 Docker Files Description
-Docker file for `java-pong-ping` Application
+
+### Docker file for `java-pong-ping` Application
 This Java application exposes the following endpoint:
 
 - `/ping`: GET method to receive "ping" as a response.
@@ -24,7 +25,7 @@ java PingPong
 
 Use `openjdk:8` as the base image. Note that the alias network for this container is `javaapp`.
 
-Docker file for `python-pong-ping` Application
+### Docker file for `python-pong-ping` Application
 
 This Python application exposes the following endpoints:
 
@@ -37,7 +38,7 @@ uvicorn PingPong:app --host 0.0.0.0 --port 8002 --reload
 
 Use `fastapi-gunicorn-uvicorn/tiangolo` as the base image. Ensure the working directory (`WORKDIR`) is specified. The alias network for this container is `pythonapp`.
 
-Docker file for `js-pong-ping` Application
+### Docker file for `js-pong-ping` Application
 
 This JavaScript application exposes the following endpoint:
 
@@ -50,7 +51,7 @@ node PingPong.js
 
 Use `node:slim` as the base image. Transfer all files in the folder to the container. The alias network for this container is `jsapp`.
 
-Docker file for `nginx`
+### Docker file for `nginx`
 
 The Docker file for Nginx contains a configuration to act as a reverse proxy for different applications, host a static HTML page, and serve contents from a folder outside the container for download.
 
