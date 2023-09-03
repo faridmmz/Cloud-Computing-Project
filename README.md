@@ -9,9 +9,9 @@ This repository contains the documentation and resources for the Cloud Computing
 
 ## Table of Contents
 
-- [Phase 1 Docker](#Phase1-Docker)
-- [Phase 2 Docker Compose](#phase2-Docker-Compose)
-- [Phase 3 Kubernetes](#phase3-Kubernetes)
+- [Phase 1: Docker](#Phase-1-Docker)
+- [Phase 2: Docker Compose](#phase-2-Docker-Compose)
+- [Phase 3: Kubernetes](#phase-3-Kubernetes)
 - [Conclusion](#conclusion)
 
 ## Phase 1: Docker
