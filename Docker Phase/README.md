@@ -5,7 +5,7 @@ Welcome to the first Phase of our Cloud Computing project and feel free to reach
 
 - [Project Brief](#project-Brief)
 - [Docker Files Description](#docker-Files-Description)
-- [## Running the Applications](#running-the-Applications)
+- [Running the Applications](#running-the-Applications)
 
 
 ## Project Brief

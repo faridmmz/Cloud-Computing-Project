@@ -34,7 +34,7 @@ For detailed instructions, refer to [Phase 1 Documentation](Docker%20Phase/READM
 
 In this phase, a Docker Compose file was created to simplify the deployment of the application. The application, a simple Go REST API with a MySQL database, was defined in the Compose file. The services were orchestrated, ensuring the application container only runs once the database container is up.
 
-For detailed instructions, refer to [Phase 2 Documentation](Docker%20Compose%20Phase/README.md).
+For detailed instructions, refer to [Phase 2 Documentation](Docker-Compose%20Phase/README.md).
 
 ## Phase 3: Kubernetes
 
@@ -42,7 +42,7 @@ For detailed instructions, refer to [Phase 2 Documentation](Docker%20Compose%20P
 
 This phase involved migrating the application from Compose Docker to Kubernetes for production deployment. Kubernetes configuration files were created for each component of the application, including pods, services, secrets, and persistent volumes. The deployment script facilitates the creation and deletion of Kubernetes resources.
 
-For detailed instructions, refer to [Phase 3 Documentation](Kubernetes%20Phase/README.).
+For detailed instructions, refer to [Phase 3 Documentation](Kubernetes%20Phase/README.md).
 
 ## Conclusion
 
