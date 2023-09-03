@@ -50,9 +50,7 @@ This project demonstrated the deployment of a multi-container application using 
 
 **As our cloud computing saga wrapped up, let's raise a virtual toast to the incredible world of Docker, Docker-Compose, and Kubernetes. May your deployments always be 'container'-ful."**
 
-For any inquiries or further information, please contact:
-- Faridreza Momtazzandi: faridmmz79@example.com
-- Mahya Ehsanimehr: mahya@example.com
+For any inquiries or further information don't hesitate to contact us!
 
 ---
 
