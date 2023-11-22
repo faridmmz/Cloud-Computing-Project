@@ -7,7 +7,7 @@ This repository contains the documentation and resources for the Cloud Computing
 ![Photo by <a href="https://unsplash.com/@chuttersnap?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">CHUTTERSNAP</a> on <a href="https://unsplash.com/photos/9AqIdzEc9pY?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   ](https://github.com/faridmmz/Cloud-Computing-Project/blob/main/README_image.jpg "Photo by CHUTTERSNAP on Unsplash")
 
-## Table of Contents
+## Table of Content
 
 - [Phase 1: Docker](#Phase-1-Docker)
 - [Phase 2: Docker Compose](#phase-2-Docker-Compose)
